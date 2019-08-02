@@ -3,7 +3,7 @@ class PigLatinizer
 
   def piglatinize(user_phrase)
     if user_phrase.split(" ").count > 1 
-      user_phrase.to_pig_latin
+      self.to_pig_latin(user_phrase)
     else
       @new_word = user_phrase.split("")
       vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
