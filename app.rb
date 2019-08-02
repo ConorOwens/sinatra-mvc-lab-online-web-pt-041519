@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
   
   post '/piglatinize' do
-    @text = Oinker.new(params[:input])
+    @text = PigLatinizer.new(params[:input])
     erb :oinked
   end
   
