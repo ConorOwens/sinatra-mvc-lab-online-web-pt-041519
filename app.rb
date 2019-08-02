@@ -8,6 +8,7 @@ class App < Sinatra::Base
   
   post '/' do
     @text = params
-    
-    erb: 
+    erb :oinked
+  end
+  
 end
