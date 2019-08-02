@@ -13,6 +13,7 @@ class PigLatinizer
         latinized_word = begins_with_consonant.join("")
       end
       latinized_word
+    end
   end
 
   def to_pig_latin(sentence)
