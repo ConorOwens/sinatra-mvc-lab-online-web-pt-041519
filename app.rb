@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
   
   post '/' do
-    @text = params
+    @text = Oinker.new(params[:input])
     erb :oinked
   end
   
