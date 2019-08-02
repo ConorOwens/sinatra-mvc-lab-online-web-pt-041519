@@ -1,4 +1,4 @@
-class Oinker
+class Piglatinizer
   
   attr_accessor :input
   
